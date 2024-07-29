@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="AndroidSmokeTests">
     <test name="Clock">
+        <!-- dumpsys window displays | grep -E "mCurrentFocus" -->
         <parameter name="uid" value="emulator-5554" />
         <parameter name="appPackage" value="com.google.android.deskclock" />
         <parameter name="appActivity" value="com.android.deskclock.DeskClock" />
