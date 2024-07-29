@@ -88,6 +88,6 @@ public class Clock {
 
     @AfterTest
     void cleanup() {
-//        driver.quit();
+        driver.quit();
     }
 }

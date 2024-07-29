@@ -11,10 +11,4 @@ public class Helpers {
                 AppiumBy.xpath(By))
         );
     }
-
-    static List<WebElement> multipleWaiter(WebDriverWait wait, String By) {
-        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(
-                AppiumBy.xpath(By)
-        ));
-    }
 }
